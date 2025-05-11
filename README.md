@@ -13,40 +13,27 @@ This repository provides a simple implementation of a Text-to-Speech (TTS) syste
 
 ## Installation
 
-### macOS
-1. Install Python:
+### Using pip
+1. Install Python (if not already installed):
+    - On macOS:
+        ```bash
+        brew install python
+        ```
+    - On Windows:
+        Download and install Python from [python.org](https://www.python.org/). Ensure you check the box to add Python to your PATH during installation.
+
+2. Install the package:
     ```bash
-    brew install python
-    ```
-2. Clone the repository:
-    ```bash
-    git clone https://github.com/HMCorp-Fund/tts_simple.git
-    cd tts_simple
-    ```
-3. Install dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-4. Install additional dependencies for `.wav` file generation:
-    ```bash
-    brew install ffmpeg
+    pip install tts-simple
     ```
 
-### Windows
-1. Install Python:
-    Download and install Python from [python.org](https://www.python.org/).
-    Ensure you check the box to add Python to your PATH during installation.
-2. Clone the repository:
-    ```cmd
-    git clone https://github.com/yourusername/tts_simple.git
-    cd tts_simple
-    ```
-3. Install dependencies:
-    ```cmd
-    pip install -r requirements.txt
-    ```
-4. Install additional dependencies for `.wav` file generation:
-    Download and install FFmpeg from [FFmpeg.org](https://ffmpeg.org/). Add the FFmpeg binary to your system PATH.
+3. Install FFmpeg for `.wav` file generation:
+    - On macOS:
+        ```bash
+        brew install ffmpeg
+        ```
+    - On Windows:
+        Download and install FFmpeg from [FFmpeg.org](https://ffmpeg.org/). Add the FFmpeg binary to your system PATH.
 
 ## Usage
 1. Run the script:

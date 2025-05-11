@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="tts-simple",
-    version="0.1.0",
+    version="0.1.1",
     author="Anton Pavlenko",
     author_email="apavlenko@hmcorp.fund",  # Replace with your email
     description="Simple text-to-speech converter with multiple languages and voices",
